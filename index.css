@@ -1,0 +1,90 @@
+/* h2{
+   display: none;  
+   The display: none property is used to hide elements without
+    deleting them. It does not take up any space.
+
+
+} */
+/* h2{
+    visibility: hidden;
+    The visibility: hidden property also hides an element,
+     but affects the layout i.e. takes up space. 
+} */
+/* What is CSS box model
+
+CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every 
+HTML element. It consists of: margins, borders, padding, and
+ the actual content. The image below illustrates the box model: */
+
+
+ /* h1{
+     width: 300px;
+     margin: 0px;
+     padding: 10px;
+     border: 5px solid black;
+     display: grid;
+     gi
+ } */
+
+
+ /* Which property you will use to merge cells horizontally in grid? */
+/* .container{
+    display: grid;
+    width: 500px;
+    height: 400px;
+   
+    background-color: blueviolet;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 5px;
+}
+.box1{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* border: 5px solid black; */
+
+/* .box2{
+    background-color: blue;
+    /* border: 5px solid black; */
+
+/* .box3{ */
+    /* background-color: bisque;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} */ 
+div img {
+    height: 200px;
+    width: 200px;
+    animation: bounceIn 4s ease-in-out 4s infinite normal ;
+}
+h3{
+    color: lightcoral;
+    font-size: 30px;
+    animation: bounceIn 4s ease-in-out 4s infinite normal ;
+
+}
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+
+/* 
+animation delay
+The animation-delay
+allows you to specify when the
+animation (or pieces of the animation) will start.
+A positive value (such as 2s) will start the 
+animation 2 seconds after it is triggered. 
+The element will remain unanimated until that time. */
